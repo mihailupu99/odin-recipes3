@@ -7,11 +7,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="./recipes/garbage_plate.html">The garbage plate</a></li>
-      <li><a href="./recipes/spam_musubi.html">Fancy Spam Musubi</a></li>
-      <li><a href="./recipes/kool_aid.html">Kool Aid Pickles</a></li>
-    </ul>
+    <div class="main-container">
+      <h1>Odin Recipes</h1>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">About Us</a>
+        <a href="#">Contacts</a>
+      </nav>
+      <img
+        class="img-gif"
+        src="/images/yumy_food.gif"
+        alt="a gif of cat waiting for yummy food"
+      />
+      <div class="card-container">
+        <div class="card-item">
+          <h2>The Garbage Plate</h2>
+          <img
+            class="img-card"
+            src="./images/garbage_plate_img.webp"
+            alt="an image of the dish garbage plate"
+          />
+          <a href="./recipes/garbage_plate.html">
+            <button class="btn-card">View Recipe</button>
+          </a>
+        </div>
+        <div class="card-item">
+          <h2>Fancy Spam Musubi</h2>
+          <img
+            class="img-card"
+            src="./images/spam_musubi_img.webp"
+            alt="an image of the dish garbage plate"
+          />
+          <a href="./recipes/spam_musubi.html">
+            <button class="btn-card">View Recipe</button>
+          </a>
+        </div>
+        <div class="card-item">
+          <h2>Kool Aid Pickles</h2>
+          <img
+            class="img-card"
+            src="./images/kool_aid_img.webp"
+            alt="an image of the dish garbage plate"
+          />
+          <a href="./recipes/kool_aid.html">
+            <button class="btn-card">View Recipe</button>
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

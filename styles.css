@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montseratt", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 56px;
+  padding: 20px;
+  text-align: center;
+  color: #284b63;
+}
+h2 {
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #3c6e71;
+  /* padding: 10px 10px; */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.img-gif {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.img-card {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-item:hover {
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.3);
+  transition-duration: 0.3s;
+}
+
+.btn-card {
+  display: inline;
+  margin: 10px 0;
+  padding: 7px 15px;
+  border: none;
+  background-color: #284b63;
+  color: #fff;
+  width: 200px;
+  font-size: 17px;
+}
+
+.btn-card:hover {
+  cursor: pointer;
+  background-position: left;
+  background-color: #d9d9d9;
+  color: #000000;
+  transition-duration: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
